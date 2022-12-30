@@ -61,13 +61,12 @@ main {
   transition: 0.3s;
 }
 
-@media (max-width: 1835px) {
+@media (max-width: 999px) {
   body {
      overflow-x: hidden; 
       
   }
-  .nav-list {
-    overflow-x: hidden; 
+  .nav-list {    
     position: absolute;
     top: 18vh;
     right: 0;
