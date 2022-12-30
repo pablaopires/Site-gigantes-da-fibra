@@ -61,11 +61,18 @@ main {
   transition: 0.3s;
 }
 
-@media {
+/* @media {
   html, body {
+    overflow: hidden;
     height: 100%;
   }
-  }
+  } */
+  @supports not (overflow-scrolling: touch) {
+    html, body {
+      overflow: hidden;
+      height: 100%;
+    }
+
   .nav-list {
     position: absolute;
     top: 18vh;
