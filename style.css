@@ -62,12 +62,17 @@ main {
 }
 
 @media (max-width: 999px) {
-  /* body {
-     overflow-x: hidden;  */
-     html, body {
-      overflow-x:hidden 
-    } 
-      
+  body.modal-open {    
+    overflow: hidden;
+    position: fixed;
+}
+body.viewport-lg {
+      position: absolute; 
+}
+body {  
+  overflow-x: hidden;
+  overflow-y: scroll !important;
+}
   }
   .nav-list {   
     overflow-x: hidden; 
