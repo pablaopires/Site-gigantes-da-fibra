@@ -61,7 +61,7 @@ main {
   transition: 0.3s;
 }
 
-@media (max-width: 999px) {
+@media {
   html, body {
     overflow: hidden;
     height: 100%;
