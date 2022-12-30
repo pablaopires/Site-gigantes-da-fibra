@@ -63,15 +63,17 @@ main {
 
 @media (max-width: 1835px) {
   body {
-     overflow-x: hidden;  /* O problema deve estar aqui */
+     overflow-x: hidden; 
+      
   }
   .nav-list {
+    overflow-x: hidden; 
     position: absolute;
     top: 18vh;
     right: 0;
     width: 40vw;
     height: 92vh;      
-    background: #add8e6;
+    background: #add8e6;    
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
