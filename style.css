@@ -62,8 +62,8 @@ main {
 }
 
 @media (max-width: 999px) {
-  body {
-    overflow-x: hidden;
+  html, body { 
+    overflow: hidden, height 100%; 
   }
   .nav-list {
     position: absolute;
