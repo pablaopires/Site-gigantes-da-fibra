@@ -61,15 +61,15 @@ main {
   transition: 0.3s;
 }
 
-@media (max-width: 999px) {
+@media (max-width: 1835px) {
   body {
-    overflow-x: hidden;
+     overflow-x: hidden;  /* O problema deve estar aqui */
   }
   .nav-list {
     position: absolute;
     top: 18vh;
     right: 0;
-    width: 50vw;
+    width: 40vw;
     height: 92vh;      
     background: #add8e6;
     flex-direction: column;
